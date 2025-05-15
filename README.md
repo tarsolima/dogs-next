@@ -6,7 +6,7 @@
 ## Project Description  
 Dogs Next is a web application developed as part of the Origamid web development course. Built with **Next.js 14** and later updated to **Next.js 15**, it consumes the Origamid Dogs API (a WordPress REST API) to manage users, photos, and comments.
 
-The application includes user authentication (with JWT), photo upload/delete, commenting, and personal statistics. It achieves exceptional performance, with a **Google PageSpeed Insights Real User Experience score of 99**.
+The application includes photo upload/delete, commenting, and personal statistics. It achieves exceptional performance, with a **Google PageSpeed Insights Real User Experience score of 99**.
 
 ## 🔗 Live Preview  
 👉 [Click here to access the live version](https://dogs-next-rho.vercel.app/) 
@@ -50,5 +50,6 @@ MIT
 
 ## 👨‍💻 Author
 **Abner Tarso dos Santos Lima**  
-📧 abner.tarso.dev@gmail.com  
+📧 abnertarolima@gmail.com  
 🔗 [GitHub](https://github.com/tarsolima)
+🔗 [Linkedin](https://www.linkedin.com/in/abner-ts/)
