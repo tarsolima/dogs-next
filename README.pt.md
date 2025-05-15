@@ -6,10 +6,10 @@
 ## Descrição do Projeto  
 Dogs Next é uma aplicação web desenvolvida como parte do curso da **Origamid**. Criado inicialmente com **Next.js 14** e atualizado para o **Next.js 15**, utilizando uma API REST baseada em WordPress.
 
-A aplicação possui autenticação (JWT), upload/exclusão de fotos, comentários e estatísticas pessoais. Desempenho excepcional: **pontuação 99 no Google PageSpeed Insights**.
+A aplicação possui upload/exclusão de fotos, comentários e estatísticas pessoais. Desempenho excepcional: **pontuação 99 no Google PageSpeed Insights**.
 
 ## 🔗 Visualização  
-👉 [Acesse o site] <a href="https://dogs-next-rho.vercel.app/" target="_blank">Click here to access the live version</a>
+👉 [Acesse o site][Acesse o site](https://dogs-next-rho.vercel.app/)
 
 ## 🚀 Tecnologias
 - **Next.js 14 → 15**
@@ -50,5 +50,6 @@ MIT
 
 ## 👨‍💻 Autor
 **Abner Tarso dos Santos Lima**  
-📧 abner.tarso.dev@gmail.com  
+📧 abnertarsolima@gmail.com  
 🔗 [GitHub](https://github.com/tarsolima)
+🔗 [Linkedin](🔗 [GitHub](https://github.com/tarsolima))
