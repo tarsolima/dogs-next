@@ -9,7 +9,7 @@ Dogs Next é uma aplicação web desenvolvida como parte do curso da **Origamid*
 A aplicação possui autenticação (JWT), upload/exclusão de fotos, comentários e estatísticas pessoais. Desempenho excepcional: **pontuação 99 no Google PageSpeed Insights**.
 
 ## 🔗 Visualização  
-👉 [Acesse o site](https://dogs-next-rho.vercel.app/)
+👉 [Acesse o site] <a href="https://dogs-next-rho.vercel.app/" target="_blank">Click here to access the live version</a>
 
 ## 🚀 Tecnologias
 - **Next.js 14 → 15**
