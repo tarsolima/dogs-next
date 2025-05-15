@@ -45,9 +45,6 @@ npm run start
 - `params` ajustado com `<Promise>` e `await`
 - Correção no bug de exclusão de imagem na rota `/conta` com `use client`
 
-## 📄 Licença
-MIT
-
 ## 👨‍💻 Autor
 **Abner Tarso dos Santos Lima**  
 📧 abnertarsolima@gmail.com  
