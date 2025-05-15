@@ -9,7 +9,7 @@ Dogs Next é uma aplicação web desenvolvida como parte do curso da **Origamid*
 A aplicação possui upload/exclusão de fotos, comentários e estatísticas pessoais. Desempenho excepcional: **pontuação 99 no Google PageSpeed Insights**.
 
 ## 🔗 Visualização  
-👉 [Acesse o site][Acesse o site](https://dogs-next-rho.vercel.app/)
+👉 [Acesse o site](https://dogs-next-rho.vercel.app/)
 
 ## 🚀 Tecnologias
 - **Next.js 14 → 15**
@@ -49,4 +49,4 @@ npm run start
 **Abner Tarso dos Santos Lima**  
 📧 abnertarsolima@gmail.com  
 🔗 [GitHub](https://github.com/tarsolima)
-🔗 [Linkedin](🔗 [GitHub](https://github.com/tarsolima))
+🔗 [Linkedin](https://www.linkedin.com/in/abner-ts/)
