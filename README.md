@@ -9,7 +9,9 @@ Dogs Next is a web application developed as part of the Origamid web development
 The application includes user authentication (with JWT), photo upload/delete, commenting, and personal statistics. It achieves exceptional performance, with a **Google PageSpeed Insights Real User Experience score of 99**.
 
 ## 🔗 Live Preview  
-👉 <a href="https://dogs-next-rho.vercel.app/" target="_blank">Click here to access the live version</a>
+👉 [Click here to access the live version](https://dogs-next-rho.vercel.app/)  
+*(Opens in the same tab — right-click to open in a new one)*
+
 
 ## 🚀 Tech Stack
 - **Next.js 14 → 15**
