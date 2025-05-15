@@ -24,7 +24,7 @@ API Dogs da Origamid
 
 ## ⚙️ Instalação e Uso
 ```bash
-git clone https://github.com/seu-usuario/dogs-next.git
+git clone https://github.com/tarsolima/dogs-next.git
 cd dogs-next
 npm install
 npm run dev
