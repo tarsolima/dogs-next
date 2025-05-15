@@ -45,9 +45,6 @@ npm run start
 - Route `params` updated with `<Promise>` + `await`
 - Bug fix: image deletion now updates UI instantly via `use client`
 
-## 📄 License
-MIT
-
 ## 👨‍💻 Author
 **Abner Tarso dos Santos Lima**  
 📧 abnertarolima@gmail.com  
