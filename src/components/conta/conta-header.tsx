@@ -26,6 +26,8 @@ function getTitle(pathname: string) {
 export default function ContaHeader() {
   const mobile = useMedia("(max-width: 40rem)");
   const [mobileMenu, setMobileMenu] = React.useState(false);
+  const menuRef = React.useRef<HTMLElement | null>(null);
+  const buttonRef = React.useRef<HTMLButtonElement | null>(null);
 
   const pathname = usePathname();
   React.useEffect(() => {
@@ -33,6 +35,30 @@ export default function ContaHeader() {
   }, [pathname]);
 
   const { setUser } = useUser();
+
+  React.useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        menuRef.current &&
+        buttonRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        !buttonRef.current.contains(event.target as Node)
+      ) {
+        setMobileMenu(false);
+      }
+    }
+
+    if (mobileMenu) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [mobileMenu]);
+
   async function handleLogout() {
     await logout();
     setUser(null);
@@ -43,6 +69,7 @@ export default function ContaHeader() {
       <h1 className="title">{getTitle(pathname)}</h1>
       {mobile && (
         <button
+          ref={buttonRef}
           aria-label="Menu"
           onClick={() => setMobileMenu(!mobileMenu)}
           className={`${styles.mobileButton} ${
@@ -51,6 +78,7 @@ export default function ContaHeader() {
         ></button>
       )}
       <nav
+        ref={menuRef}
         className={`${mobile ? styles.navMobile : styles.nav} ${
           mobileMenu && styles.navMobileActive
         }`}
