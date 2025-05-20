@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Dogs Next 🐶
 
-First, run the development server:
+> 🇧🇷 Read this in [Português](./README.pt.md)
 
+## Project Description  
+Dogs Next is a web application developed as part of the Origamid web development course. Built with **Next.js 14** and later updated to **Next.js 15**, it consumes the Origamid Dogs API (a WordPress REST API) to manage users, photos, and comments.
+
+The application includes photo upload/delete, commenting, and personal statistics. It achieves exceptional performance, with a **Google PageSpeed Insights Real User Experience score of 99**.
+
+## 🔗 Live Preview  
+👉 [Click here to access the live version](https://dogs-next-rho.vercel.app/) 
+
+## 🚀 Tech Stack
+- **Next.js 14 → 15**
+- **React**
+- **TypeScript**
+- **CSS Modules**
+- **Vercel**
+- **Node.js**
+
+## 🔌 API Used
+Origamid Dogs API (provided by Origamid course)
+
+## ⚙️ Installation & Usage
 ```bash
+git clone https://github.com/tarsolima/dogs-next.git
+cd dogs-next
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For production:
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Requires Node.js 16+
 
-## Learn More
+## 🛠 Improvements Made
+- `cookies()` now supports `await`
+- Route `params` updated with `<Promise>` + `await`
+- Bug fix: image deletion now updates UI instantly via `use client`
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+**Abner Tarso dos Santos Lima**  
+📧 abnertarolima@gmail.com  
+🔗 [GitHub](https://github.com/tarsolima)
+🔗 [Linkedin](https://www.linkedin.com/in/abner-ts/)
